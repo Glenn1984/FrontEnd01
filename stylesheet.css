@@ -1,0 +1,205 @@
+/* For layout - check layOut.css */
+/* built on width: 550px */
+.header {
+    overflow: hidden;
+    padding: 20px;
+    border: #A9A9A9 0.364vw solid;
+}
+
+.header img.logo {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: #EFEFEF 0.364vw solid;
+    box-shadow: 20px 20px 50px 25px rgba(239,239,239,0.4);
+}
+
+h1 {
+    width: 350px;
+    height: 80px;
+    font-size: 14.286vw;
+    text-align: center;
+    font-weight: 700;
+    color: #585858;
+}
+
+h2 {
+    width: 510px;
+    height: 80px;
+    font-size: 5.357vw;
+    text-align: center;
+    font-weight: 700;
+    color: #585858;
+}
+
+/* Nav bar built with hover - Design by Glenn */
+
+.navbar {
+    width: 100vw;
+    text-align: center;
+}
+
+.navbar ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar ul li {
+    margin: 0 2vw;
+    list-style-type: none;
+    display: flex;
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.navbar ul li a{
+    width: 27.273vw;
+    text-decoration: none;
+    padding: 2vw;
+    color: #3E3E3E;
+    border: #3E3E3E 0.364vw solid;
+}
+
+.navbar ul li a:hover {
+    background-color: #CECECE;
+}
+
+/* End nav bar */
+
+.content {
+    font-weight: 700;
+    color: #222;
+    border: #585858 0.364vw solid;
+}
+
+.content a{
+    color: #222;
+}
+
+.content img {
+    width: 550px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 5.455vw;
+    text-align: start;
+    font-weight: 700;
+    color: #222;
+}
+
+ol {
+    font-size: 5vw;
+    text-align: start;
+    font-weight: 700;
+    color: #222;
+}
+
+h3 {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: 700;
+    color: #222;
+}
+
+.side {
+    padding: 13px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: #585858 0.364vw solid;
+}
+
+.ad > iframe {
+    margin: 0 auto;
+    width: 550px    !important;
+    height: 350px   !important;
+    border: #3E3E3E 0.364vw solid;
+}
+
+.footer {
+    text-align: center;
+    color: #3E3E3E;
+    border: #3E3E3E 0.364vw solid;
+}
+
+
+
+
+/* Media queries alert! */
+/*
+@media only screen and (min-width: 600px) {
+    .header {
+        overflow: hidden;
+        padding: 20px;
+    }
+    
+    .header img.logo {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+    }
+    
+    h1 {
+        width: 350px;
+        height: 80px;
+    }
+    
+    h2 {
+        width: 510px;
+        height: 80px;
+    }
+    
+    .content img {
+        width: 550px;
+        height: 700px;
+        margin: 0 auto;
+    }
+    
+    .side {
+        padding: 13px;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header {
+        overflow: hidden;
+        padding: 20px;
+    }
+    
+    .header img.logo {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+    }
+    
+    h1 {
+        width: 350px;
+        height: 80px;
+    }
+    
+    h2 {
+        width: 510px;
+        height: 80px;
+    }
+    
+    .content img {
+        width: 550px;
+        height: 700px;
+        margin: 0 auto;
+    }
+    
+    .side {
+        padding: 13px;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+*/
