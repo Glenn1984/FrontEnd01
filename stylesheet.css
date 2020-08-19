@@ -1,34 +1,29 @@
 /* For layout - check layOut.css */
-/* built on width: 550px */
+
 .header {
-    overflow: hidden;
-    padding: 20px;
+    margin: 5px;
+    padding: 15px;
     border: #A9A9A9 0.364vw solid;
 }
 
 .header img.logo {
     width: 200px;
     height: 200px;
-    overflow: hidden;
     border-radius: 50%;
     border: #EFEFEF 0.364vw solid;
     box-shadow: 20px 20px 50px 25px rgba(239,239,239,0.4);
 }
 
 h1 {
-    width: 350px;
-    height: 80px;
-    font-size: 14.286vw;
-    text-align: center;
+    font-size: calc(32px + 2vw); /* Text grows for 2px each 100px viewport width */
+    text-align: left;
     font-weight: 700;
     color: #585858;
 }
 
 h2 {
-    width: 510px;
-    height: 80px;
-    font-size: 5.357vw;
-    text-align: center;
+    font-size: calc(24px + 1,5vw);
+    text-align: left;
     font-weight: 700;
     color: #585858;
 }
@@ -36,29 +31,35 @@ h2 {
 /* Nav bar built with hover - Design by Glenn */
 
 .navbar {
-    width: 100vw;
-    text-align: center;
+    margin: 5px;
+    padding: 5px;
 }
 
 .navbar ul {
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    border: #FF3B3F 2px solid;
+    padding: 1px;
 }
 
 .navbar ul li {
-    margin: 0 2vw;
+    margin: 5px;
+    border: #CAEBF2 2px solid;
+    padding: 10px;
     list-style-type: none;
     display: flex;
-    font-size: 4vh;
+    font-size: calc(18.72px + 0.5vw);
     font-weight: 700;
+    text-align: center;
 }
 
 .navbar ul li a{
-    width: 27.273vw;
+    margin: 0 auto;
+    border: #3E3E3E 2px solid;
+    padding: 15px;
+    width: 100%;
     text-decoration: none;
-    padding: 2vw;
     color: #3E3E3E;
-    border: #3E3E3E 0.364vw solid;
+    display: block;
 }
 
 .navbar ul li a:hover {
@@ -68,9 +69,9 @@ h2 {
 /* End nav bar */
 
 .content {
-    font-weight: 700;
-    color: #222;
+    margin: 5px;
     border: #585858 0.364vw solid;
+    color: #222;
 }
 
 .content a{
@@ -78,48 +79,59 @@ h2 {
 }
 
 .content img {
-    width: 550px;
-    height: 700px;
     margin: 0 auto;
+    padding: 5px;
+    width: 550px;
+    height: 650px;
+    display: block;
 }
 
 p {
-    font-size: 5.455vw;
+    margin: 10px;
+    padding: 10px;
+    font-size: calc(18.72px + 0.5vw);
     text-align: start;
     font-weight: 700;
     color: #222;
 }
 
 ol {
-    font-size: 5vw;
+    margin: 15px;
+    font-size: calc(18.72px + 0.5vw);
     text-align: start;
     font-weight: 700;
     color: #222;
 }
 
 h3 {
-    font-size: 5vw;
+    font-size: calc(18.72px + 0.5vw);
     text-align: center;
     font-weight: 700;
     color: #222;
 }
 
 .side {
-    padding: 13px;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
+    margin: 5px;
+    padding: 30px;
     border: #585858 0.364vw solid;
 }
 
-.ad > iframe {
-    margin: 0 auto;
-    width: 550px    !important;
-    height: 350px   !important;
+.ad {
+    margin: 5px;
+    padding: 10px;
     border: #3E3E3E 0.364vw solid;
 }
 
+iframe {
+    margin: 0 auto;
+    width: 500px;
+    height: 350px;
+    display: block;
+}
+
 .footer {
+    margin: 5px;
+    font-size: calc(16px + 0.5vw);
     text-align: center;
     color: #3E3E3E;
     border: #3E3E3E 0.364vw solid;
@@ -131,75 +143,8 @@ h3 {
 /* Media queries alert! */
 /*
 @media only screen and (min-width: 600px) {
-    .header {
-        overflow: hidden;
-        padding: 20px;
-    }
     
-    .header img.logo {
-        width: 200px;
-        height: 200px;
-        overflow: hidden;
-    }
-    
-    h1 {
-        width: 350px;
-        height: 80px;
-    }
-    
-    h2 {
-        width: 510px;
-        height: 80px;
-    }
-    
-    .content img {
-        width: 550px;
-        height: 700px;
-        margin: 0 auto;
-    }
-    
-    .side {
-        padding: 13px;
-        margin: 0 auto;
-        max-width: 100%;
-        height: auto;
-    }
-}
 
 @media only screen and (min-width: 1200px) {
-    .header {
-        overflow: hidden;
-        padding: 20px;
-    }
     
-    .header img.logo {
-        width: 200px;
-        height: 200px;
-        overflow: hidden;
-    }
-    
-    h1 {
-        width: 350px;
-        height: 80px;
-    }
-    
-    h2 {
-        width: 510px;
-        height: 80px;
-    }
-    
-    .content img {
-        width: 550px;
-        height: 700px;
-        margin: 0 auto;
-    }
-    
-    .side {
-        padding: 13px;
-        margin: 0 auto;
-        max-width: 100%;
-        height: auto;
-    }
-    
-}
-*/
+}*/
